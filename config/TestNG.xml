@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name='Selenium_day2'>
+	<test name='seleniumtestng'>
+		<groups>
+			<run>
+				<include name="A">
+				</include>
+			</run>
+		</groups>
+		<classes>
+			<class name='seleniumtestng.TestGroup'>
+			</class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,14 @@
+<suite name="Selenium_day2" parallel="tests">
+	<test name="test method dependency">
+		<classes name="seleniumtestng">
+			<class name="seleniumtestng.Methoddependency">
+			</class>
+		</classes>
+	</test>
+	<test name="Testing Priority">
+		<classes name="seleniumtestng">
+			<class name="seleniumtestng.Priority">
+			</class>
+		</classes>
+	</test>
+</suite>
